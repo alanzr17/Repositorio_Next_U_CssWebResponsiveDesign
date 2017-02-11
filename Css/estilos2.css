@@ -106,22 +106,7 @@ body {
 
 }
 
-.PrimeraImagen {
-	background-color: #82C3A6;
-	padding: 20px;
-}
-
-.PrimeraImagen img {
-	margin: auto;
-	width: 80%;
-	text-align: center;
-	display: block;
-	box-shadow: 2px 2px #02010a;
-}
-
-
-
-.SegundaImagen {
+.Gallery1 {
 	display: flex;
 	flex-direction: row;
 	flex-flow: wrap;
@@ -130,72 +115,14 @@ body {
 	width: 100%;
 }
 
-.SegundaImagen img {
-	width: 350px;
+.Gallery1 div img {
+	width: 250px;
 	border: 2px;
 	box-shadow: 2px 2px #02010a;
 }
 
-figure {
-	text-align: center;
-}
-
-.Galeria1 {
-	padding: 10px;
-}
-
-.Galeria2 {
-	padding: 10px;
-}
-
-.Galeria1 img:hover {
-	transform: rotate(10deg);
-	transition-duration: 2s;
-	box-shadow: 2px 2px #82C3A6;
-}
-
-.Galeria2 img:hover {
-	transform:translate(20px, -5px);
-	transition-duration: 1s;
-	box-shadow: 2px 2px #82C3A6;
-}
-
-.SegundaImagen figure a {
-	color: black;
-}
-
-@media screen and (min-width: 601px) and (max-width: 850px) {
-
-	.Galeria1 img {
-		width: 100%;
-		text-align: center;
-		padding: none;
-	}
-
-	.Galeria2 {
-		padding: none;
-	}
-
-	.Galeria2 img {
-		width: 100%;
-		text-align: center;
-	}
-
-	figure figcaption {
-		padding-top: 10px;
-	}
-
-}
-
-@media screen and (max-width: 600px) {
-
-	.Galeria1 img {
-		width: 100%;
-	}
-
-	.Galeria2 img {
-		width: 100%;
-	}
+.Gallery1 div {
+	padding: 25px;
 }
 
 footer {
