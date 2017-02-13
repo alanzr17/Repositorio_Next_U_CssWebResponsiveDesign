@@ -56,10 +56,10 @@ body {
 	text-decoration: none;
 }
 
-@media screen and (min-width: 601px) and (max-width: 850px) {
+@media screen and (max-width: 850px) {
 
 	#Contenido {
-	width: 600px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	}
@@ -81,30 +81,6 @@ body {
 
 }
 
-@media screen and (max-width: 600px) {
-
-	#Contenido {
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	}
-
-	#Titulo {
-	text-shadow: 2px 0px #02010A;
-	width: 100%;
-	text-align: center;
-	}
-
-	.Encabezado div {
-	text-align: center;
-	width: 100%;
-	word-spacing:  25px;
-	padding: 5px;
-	padding-top: 0px;
-	padding-bottom: 25px;
-	}
-
-}
 
 .PrimeraImagen {
 	background-color: #82C3A6;
@@ -220,14 +196,6 @@ footer div img {
 footer div a {
 	text-decoration: none;
 	color: black;
-}
-
-@media screen and (min-width: 601px) and (max-width: 850px) {
-	footer div {
-		width: 45%;
-		padding: 10px;
-		text-align: justify;
-	}
 }
 
 @media screen and (max-width: 600px) {

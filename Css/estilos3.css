@@ -81,7 +81,7 @@ body {
 
 }
 
-.Gallery1 {
+.Gallery2 {
 	display: flex;
 	flex-direction: row;
 	flex-flow: wrap;
@@ -90,33 +90,33 @@ body {
 	width: 100%;
 }
 
-.Gallery1 div img {
+.Gallery2 div img {
 	width: 250px;
 	border: 2px;
 	box-shadow: 2px 2px #02010a;
 }
 
-.Gallery1 div {
+.Gallery2 div {
 	padding: 25px;
 }
 
-.Blur1 {
+.Blur2 {
 	-webkit-filter: blur (10px);
 	filter: blur(10px);
 }
 
-.Gray1 {
+.Gray2 {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
 
-.Sepia1 {
+.Sepia2 {
 	-webkit-filter: sepia(90%);
 	filter: sepia(90%);
 }
 
 @media screen and (max-width: 850px) {
-	.Gallery1 div img {
+	.Gallery2 div img {
 		text-align: center;
 		width: 100%;
 	}
